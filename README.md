@@ -178,3 +178,36 @@ Komplexität: Der Algorithmus hat eine Zeitkomplexität von O(n^2), wobei n die 
 Ausgabe: Eine Liste von Ganzzahlen, die die Anzahl der jeweils kleineren Elemente darstellen.
 
 
+Wrong_Mountains.py
+-----------------------
+Description
+This module implements an algorithm to determine if an array of integers is a "mountain array." An array is considered a mountain if it strictly increases to a certain point (the peak) and then strictly decreases.
+
+Implemented Logic
+Length Validation: The array must contain at least 3 elements.
+
+Peak Search: The algorithm iterates through the list as long as the values are strictly increasing.
+
+Constraint Check:
+
+The peak cannot be the first or the last element (both an ascent and a descent must exist).
+
+Descent Phase: After reaching the peak, the algorithm ensures all subsequent values are strictly decreasing.
+
+Output: Returns True if the pointer reaches the end of the array while satisfying all conditions.
+___________________________________________________________________________________________________
+Beschreibung
+Dieses Modul enthält einen Algorithmus zur Überprüfung, ob ein Array ein „Berg-Array“ (Mountain Array) ist. Ein Array gilt als Berg, wenn es bis zu einem bestimmten Punkt (dem Gipfel) streng monoton steigt und danach streng monoton fällt.
+
+Implementierte Logik
+Längenvalidierung: Das Array muss mindestens 3 Elemente enthalten.
+
+Gipfelsuche: Der Algorithmus durchläuft die Liste, solange die Werte streng ansteigen.
+
+Bedingungsprüfung:
+
+Der Gipfel darf nicht das erste oder das letzte Element sein (es muss sowohl ein Aufstieg als auch ein Abstieg vorhanden sein).
+
+Abstiegsphase: Nach dem Gipfel prüft der Algorithmus, ob alle folgenden Werte streng abnehmen.
+
+Ergebnis: Gibt True zurück, wenn der Zeiger das Ende des Arrays erreicht und dabei alle Bedingungen erfüllt hat.
